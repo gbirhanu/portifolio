@@ -1,0 +1,33 @@
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0%;
+}
+html {
+  background-color: aqua;
+}
+body {
+  background-color: aliceblue;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 0%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+nav {
+  background-color: blueviolet;
+  color: azure;
+  display: flex;
+}
+nav ul {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 2em;
+  cursor: pointer;
+}
