@@ -6,12 +6,12 @@
 html {
   background-color: aqua;
   font-size: 20px;
+  overflow-x: hidden;
 }
 body {
   margin: 0%;
   background-color: aliceblue;
   width: 100vw;
-  height: 100vh;
 }
 nav {
   display: flex;
@@ -45,4 +45,38 @@ header {
 .logo {
   padding-left: 3em;
   padding-right: 3em;
+}
+.divider {
+  margin-right: 1em;
+  width: 3px;
+  background-color: aliceblue;
+  height: 20px;
+}
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contentside {
+  width: 40%;
+}
+footer {
+  background-color: black;
+  color: aliceblue;
+}
+footer section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nodec {
+  text-decoration: none;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.carcont {
+  width: 40%;
 }
