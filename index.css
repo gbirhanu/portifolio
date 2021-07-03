@@ -5,6 +5,7 @@
 }
 html {
   background-color: aqua;
+  font-size: 20px;
 }
 body {
   margin: 0%;
@@ -27,11 +28,19 @@ nav ul li {
   margin-right: 2em;
   cursor: pointer;
 }
+nav ul li:hover {
+  text-decoration: underline;
+  text-decoration-color: brown;
+  text-decoration-thickness: 8px;
+  text-decoration-style: solid;
+}
 header {
-  background-color: chocolate;
+  background-color: coral;
   color: white;
+  font-weight: 900;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .logo {
   padding-left: 3em;
